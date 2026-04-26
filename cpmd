@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# cpmd
+#
+# Usage
+# cpmd PATH/TO/VAULT1/NOTE.md PATH/TO/VAULT2/NOTE.md
+#
+# Copy markdown notes and their attachments from one Obsidian vault to another
+# Expects attachments to be stored in the vault's attachments folder
+# e.g. using Obisidian's setting Files and links -> Attachment folder path
+
+if [[ $# -ne 2 ]]; then
+  echo "Usage: $0 PATH/TO/VAULT1/NOTE.md PATH/TO/VAULT2/NOTE.md" >&2
+  exit 1
+fi
+
+# Read pasted image attachment lines from the note.
+pasted_image_attachments=$(grep -F 'Pasted image' "$1")
+echo "$pasted_image_attachments"
+
+# Set working directory to vault1 to resolve attachment paths.
+cd "$(dirname "$1")"
+
+# Ensure the attachments folder exists in vault2.
+dest_attachments_dir="$(dirname "$2")/attachments"
+mkdir -p "$dest_attachments_dir"
+
+# Remove leading ![[ and trailing ]] characters in each line of pasted_image_attachments and copy the corresponding files.
+while IFS= read -r line; do
+  s="$line"
+  s="${s#\!\[\[}"   # remove leading ![[
+  s="${s%\]\]}"      # remove trailing ]]
+  echo "$s"
+  cp -- "attachments/$s" "$dest_attachments_dir"
+done <<< "$pasted_image_attachments"
+
+
+#grep pdf "vault2/🕵️‍♂️ Alias.md"

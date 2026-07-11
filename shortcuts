@@ -15,8 +15,20 @@ echo "hotkeys"
 echo
 echo
 
-echo "## Emojis"
-echo "Open Emoji Picker | Ctrl + Shift + E, Ctrl + ."
+cat << 'TABLE'
+|---------------------------------------------------------------------|
+| Misc.                                                               |
+|---------------------------------------------------------------------|
+| FUNCTION                         | SHORTCUT                         |
+|---------------------------------------------------------------------|
+| Open Terminal                    | Super + Enter                    |
+| Open File Explorer               | Super + F                        |
+| Open Web Browser                 | Super + W                        |
+| Open Emoji Picker                | Ctrl  + Shift + E, Ctrl + .      |
+| xkill                            | Ctrl  + Alt + Esc                |
+|---------------------------------------------------------------------|
+TABLE
+
 echo
 echo
 

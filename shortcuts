@@ -4,7 +4,7 @@
 
 echo "⌨⌨⌨ SHORTCUTS ⌨⌨⌨"
 echo
-echo "## Aliases"
+echo "ALIASES"
 echo "sc"
 echo "shortcut"
 echo "shortcuts"
@@ -17,7 +17,7 @@ echo
 
 cat << 'TABLE'
 |---------------------------------------------------------------------|
-| Misc.                                                               |
+| MISC.                                                               |
 |---------------------------------------------------------------------|
 | FUNCTION                         | SHORTCUT                         |
 |---------------------------------------------------------------------|
@@ -34,20 +34,20 @@ echo
 
 cat << 'TABLE'
 |---------------------------------------------------------------------|
-| Obsidian                                                            |
+| OBSIDIAN                                                            |
 |---------------------------------------------------------------------|
-| FUNCTION                         | HOTKEY                           |
+| FUNCTION                         | SHORTCUT                         |
 |---------------------------------------------------------------------|
 | Delete a Paragraph               | Ctrl + D                         |
 | Open Graph View                  | Ctrl + G                         |
 | Insert Markdown Link             | Ctrl + K                         |
-| Toggle numbered list             | Alt  + L                         |
-| Toggle unordered list            | Ctrl + Alt + L, Ctrl + Shift + L |
-| Toggle checklist                 | Ctrl + L                         |
-| Toggle checkbox status           | Ctrl + L                         |
-| Toggle highlight                 | Ctrl + Shift + H                 |
-| Toggle comment                   | Ctrl + /                         |
-| Toggle quote                     | Ctrl + Shift + Q                 |
+| Toggle Numbered List             | Alt  + L                         |
+| Toggle Unordered List            | Ctrl + Alt + L, Ctrl + Shift + L |
+| Toggle Checklist                 | Ctrl + L                         |
+| Toggle Checkbox Status           | Ctrl + L                         |
+| Toggle Highlight                 | Ctrl + Shift + H                 |
+| Toggle Comment                   | Ctrl + /                         |
+| Toggle Quote                     | Ctrl + Shift + Q                 |
 |---------------------------------------------------------------------|
 TABLE
 
@@ -56,7 +56,7 @@ echo
 
 cat << 'TABLE'
 |---------------------------------------------------------------------|
-| Browser Search Engines                                              |
+| BROWSER SEARCH ENGINES                                              |
 |---------------------------------------------------------------------|
 | SEARCH ENGINE                    | SHORTCUT                         |
 |---------------------------------------------------------------------|
@@ -71,12 +71,11 @@ cat << 'TABLE'
 | Chrome Web Store                 | cws                              |
 | Copilot                          | cp                               |
 | cheat.sh                         | cheat.sh                         |
-| emojicombos                      | ec                               |
-| getemoji.com                     | e                                |
 | DuckDuckGo Lite                  | ddgl                             |
 | ddgtty                           | ddgtty                           |
+| getemoji.com                     | e                                |
+| Emoji Combos                     | ec, emo                          |
 | ETFDB                            | etf                              |
-| Emoji Combos                     | emo                              |
 | F-Droid                          | fd, fdroid                       |
 | Fidelity                         | f                                |
 | Gemini                           | @gemini                          |
@@ -94,15 +93,17 @@ cat << 'TABLE'
 | Internet Archive                 | archive                          |
 | Kalshi                           | k                                |
 | Newegg                           | ne                               |
+| nostr                            | nostr                            |
+| npm                              | npm                              |
+| pip                              | pip                              |
 | Page                             | @page                            |
 | Play Store                       | ps                               |
-| Primal nostr                     | p                                |
+| Primal                           | p                                |
 | PyPI                             | pypi                             |
 | Reddit                           | r                                |
 | Spotfiy                          | spot                             |
 | Startpage                        | sp                               |
 | Tabs                             | @tabs                            |
-| Tenor                            | tenor.com                        |
 | TradiingView                     | tv                               |
 | Twitch                           | tw                               |
 | Twitter                          | t                                |
@@ -111,9 +112,6 @@ cat << 'TABLE'
 | Yeggi                            | yeggi                            |
 | YouTube                          | yt                               |
 | YouTube Music                    | ytm                              |
-| nostr                            | nostr                            |
-| npm                              | npm                              |
-| pip                              | pip                              |
 |---------------------------------------------------------------------|
 TABLE
 

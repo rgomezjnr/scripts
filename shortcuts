@@ -1,0 +1,105 @@
+#!/usr/bin/env sh
+
+# Shell script that displays configured keyboard shortcuts
+
+echo "⌨⌨⌨ SHORTCUTS ⌨⌨⌨"
+echo
+echo "## Aliases"
+echo "sc"
+echo "shortcut"
+echo "shortcuts"
+echo "kbs"
+echo "kbsc"
+echo "hotkey"
+echo "hotkeys"
+echo
+echo
+
+echo "## Emojis"
+echo "Open Emoji Picker | Ctrl + Shift + E, Ctrl + ."
+echo
+echo
+
+echo "## Browser Search Engines"
+echo
+
+cat << 'TABLE'
+SEARCH ENGINE    | SHORTCUT
+-----------------|-----------------
+Search Engines   | se
+xAI              | ai
+AUR              | aur
+AlternativeTo    | at
+Amazon           | a
+Arch Packages    | ap, pacman, pack
+ArchWiki         | aw, awiki, arch
+Bookmarks        | @bookmarks
+Chrome Web Store | cws
+Copilot          | cp
+cheat.sh         | cheat.sh
+emojicombos      | ec
+getemoji.com     | e
+DuckDuckGo Lite  | ddgl
+ddgtty           | ddgtty
+ETFDB            | etf
+Emoji Combos     | emo
+F-Droid          | fd, fdroid
+Fidelity         | f
+Gemini           | @gemini
+Giphy            | gif
+Gist             | gist
+GitHub           | gh
+Google AI Mode   | @aimode
+Google Drive     | gd
+Google Maps      | map
+Grok             | grok
+Hacker News      | hn
+History          | @history
+HuggingFace      | hf
+Instagram        | i
+Internet Archive | archive
+Kalshi           | k
+Newegg           | ne
+Page             | @page
+Play Store       | ps
+Primal nostr     | p
+PyPI             | pypi
+Reddit           | r
+Spotfiy          | spot
+Startpage        | sp
+Tabs             | @tabs
+Tenor            | tenor.com
+TradiingView     | tv
+Twitch           | tw
+Twitter          | t
+X                | x
+Wikipedia        | w
+Yeggi            | yeggi
+YouTube          | yt
+YouTube Music    | ytm
+nostr            | nostr
+npm              | npm
+pip              | pip
+TABLE
+echo
+echo
+
+echo "## Obsidian"
+echo
+
+cat << 'TABLE'
+FUNCTION               | HOTKEY
+-----------------------|---------------------------------
+Delete a Paragraph     | Ctrl + D
+Open Graph View        | Ctrl + G
+Insert Markdown Link   | Ctrl + K
+Toggle numbered list   | Alt  + L
+Toggle unordered list  | Ctrl + Alt + L, Ctrl + Shift + L
+Toggle checklist       | Ctrl + L
+Toggle checkbox status | Ctrl + L
+Toggle highlight       | Ctrl + Shift + H
+Toggle comment         | Ctrl + /
+Toggle quote           | Ctrl + Shift + Q
+TABLE
+echo
+

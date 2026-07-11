@@ -22,6 +22,28 @@ echo
 
 cat << 'TABLE'
 |---------------------------------------------------------------------|
+| Obsidian                                                            |
+|---------------------------------------------------------------------|
+| FUNCTION                         | HOTKEY                           |
+|---------------------------------------------------------------------|
+| Delete a Paragraph               | Ctrl + D                         |
+| Open Graph View                  | Ctrl + G                         |
+| Insert Markdown Link             | Ctrl + K                         |
+| Toggle numbered list             | Alt  + L                         |
+| Toggle unordered list            | Ctrl + Alt + L, Ctrl + Shift + L |
+| Toggle checklist                 | Ctrl + L                         |
+| Toggle checkbox status           | Ctrl + L                         |
+| Toggle highlight                 | Ctrl + Shift + H                 |
+| Toggle comment                   | Ctrl + /                         |
+| Toggle quote                     | Ctrl + Shift + Q                 |
+|---------------------------------------------------------------------|
+TABLE
+
+echo
+echo
+
+cat << 'TABLE'
+|---------------------------------------------------------------------|
 | Browser Search Engines                                              |
 |---------------------------------------------------------------------|
 | SEARCH ENGINE                    | SHORTCUT                         |
@@ -80,28 +102,6 @@ cat << 'TABLE'
 | nostr                            | nostr                            |
 | npm                              | npm                              |
 | pip                              | pip                              |
-|---------------------------------------------------------------------|
-TABLE
-
-echo
-echo
-
-cat << 'TABLE'
-|---------------------------------------------------------------------|
-| Obsidian                                                            |
-|---------------------------------------------------------------------|
-| FUNCTION                         | HOTKEY                           |
-|---------------------------------------------------------------------|
-| Delete a Paragraph               | Ctrl + D                         |
-| Open Graph View                  | Ctrl + G                         |
-| Insert Markdown Link             | Ctrl + K                         |
-| Toggle numbered list             | Alt  + L                         |
-| Toggle unordered list            | Ctrl + Alt + L, Ctrl + Shift + L |
-| Toggle checklist                 | Ctrl + L                         |
-| Toggle checkbox status           | Ctrl + L                         |
-| Toggle highlight                 | Ctrl + Shift + H                 |
-| Toggle comment                   | Ctrl + /                         |
-| Toggle quote                     | Ctrl + Shift + Q                 |
 |---------------------------------------------------------------------|
 TABLE
 
